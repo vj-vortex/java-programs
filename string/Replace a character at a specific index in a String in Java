@@ -1,0 +1,11 @@
+import java.util.*;
+public class Indexreplace{
+    public static void main (String args[]){
+        String str="hello boi";
+        int index=6;
+        char ch= 'n';
+        str=str.substring(0,index)+ch+str.substring(index+1);
+        System.out.print(str); 
+      
+    }
+}
