@@ -1,0 +1,9 @@
+import java.util.*;
+public class stringsort{
+    public static void main(String args[]){
+    String word="jhgfdswertyuiuytr";
+    char a []=word.toCharArray();
+    Arrays.sort(a);
+    String b=a.toString();
+    System.out.println(a);
+}}
